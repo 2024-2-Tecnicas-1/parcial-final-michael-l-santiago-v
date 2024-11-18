@@ -1,5 +1,9 @@
 package logicaNegocio;
 
 public interface Domestico {
-    // TODO: Aquí va tu código
+    default String interactuarConHumano()
+    {
+        String Mensaje="El perro mueve la cola y ladra de felicidad";
+        return Mensaje;
+    }
 }
